@@ -1,0 +1,4 @@
+ffmpeg -i test.amr test.mp3
+ffmpeg  -i test.amr test.wav
+ffmpeg -i test.mp3 -f wav test.wav
+ffmpge -i gong.mp3 -f s32be -acodec pcm_u8 -ac 1 -ar 33000
